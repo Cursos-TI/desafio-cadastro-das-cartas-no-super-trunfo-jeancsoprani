@@ -2,7 +2,6 @@
 
 int main()
 {
-
     // VARIAVEIS DA CARTA 1
     char estado;
     int codCarta;
