@@ -97,8 +97,8 @@ int main()
     printf("Código: %c0%d \n", estado, codCarta);
     printf("Nome da Cidade: %s \n", nomeCidade);
     printf("População: %d \n", populacao);
-    printf("Área: %f km²\n", area);
-    printf("PIB: %f bilhões de reais\n", pib);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: %.2f bilhões de reais\n", pib);
     printf("Números de Pontos Turísticos: %d \n\n", pontosTuristicos);
 
     // APRESENTAÇÃO CARTA 2
@@ -107,8 +107,8 @@ int main()
     printf("Código: %c0%d \n", estado2, codCarta2);
     printf("Nome da Cidade: %s \n", nomeCidade2);
     printf("População: %d \n", populacao2);
-    printf("Área: %f km²\n", area2);
-    printf("PIB: %f bilhões de reais\n", pib2);
+    printf("Área: %.2f km²\n", area2);
+    printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Números de Pontos Turísticos: %d \n\n", pontosTuristicos2);
 
     return 0;
